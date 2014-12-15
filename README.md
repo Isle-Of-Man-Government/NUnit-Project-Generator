@@ -1,4 +1,4 @@
-NUnit-Project-Generator
+NUnit Project Generator
 =======================
 
 This is a simple CLI for generating an NUnit project file.
