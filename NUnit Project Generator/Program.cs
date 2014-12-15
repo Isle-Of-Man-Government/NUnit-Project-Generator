@@ -10,13 +10,13 @@ namespace NUnitProjectGenerator
             var Options = new Options();
             if(CommandLine.Parser.Default.ParseArguments(Args, Options))
             {                
-                var Dlls = Helpers.GetTestAssemblies(Options.TestRootDirectory);
+                var Dlls = AssmeblyHelpers.GetTestAssemblies(Options.TestRootDirectory);
 
                 if(!String.IsNullOrEmpty(Options.FolderToExclude))
                 {
                     Dlls = Dlls.Where(x => !x.Contains(Options.FolderToExclude));
                 }
-                Helpers.CreateProjectFile(Dlls, Options.TestRootDirectory);
+                ProjectFileGenerator.Create(Dlls, Options.TestRootDirectory);
             }
             else
             {

@@ -55,9 +55,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Helpers.cs" />
+    <Compile Include="AssemblyHelpers.cs" />
     <Compile Include="Options.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="ProjectFileGenerator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
