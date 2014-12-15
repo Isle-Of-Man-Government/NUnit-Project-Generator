@@ -9,7 +9,7 @@ Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
 		SccNumberOfProjects = 2
 		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = http://tfsv01:8080/tfs/isle%20of%20man%20government
+		SccTeamFoundationServer = .
 		SccLocalPath0 = .
 		SccProjectUniqueName1 = NUnit\u0020Project\u0020Generator\\NUnit\u0020Project\u0020Generator.csproj
 		SccProjectName1 = NUnit\u0020Project\u0020Generator
