@@ -19,7 +19,7 @@ namespace NUnitProjectGenerator
             {
                 if (!ContainsTests(Dll))
                 {
-                    break;
+                    continue;
                 }
 
                 var AssemblyName = Path.GetFileNameWithoutExtension(Dll) ?? string.Empty;
